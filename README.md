@@ -53,19 +53,6 @@ Blink er et av de enkleste eksemplene, men mønstrene og oppførslene som kan op
 
 ![Pentadecathlon](docs/pentadecathlon.gif)
 
-## I nettleseren
-
-Vi vil implementere Game of Life med *litt* HTML og CSS, og med litt mer JavaScript-programmering. Og vi vil gjøre ganske "ren" JavaScript-programmering, uten ekstra biblioteker og rammeverk; det viser seg at det ikke skal skrekkelig mye til å tegne litt bilder i nettleseren mer på egenhånd (smil)
-
-Vi starter med litt ferdig-kode:
-
-* Antageligvis all HTMLen og CSSen vi trenger
-* Litt JavaScript-kode
-  * Oppsett av canvas og litt eksempel-funksjoner for å tegne ting
-  * Ikke noe implementasjon av Game of Life
-
-Og programmerer videre derfra...
-
 ## Hvor starter jeg nå?
 
 Vi har gjort klar et utgangspunkt for å programmere Game og Life i ren JavaScript, HTML og CSS. Du kan velge mellom å utvikle rett i nettleseren ved hjelp av [Glitch](https://glitch.com/), eller jobbe lokalt med dine egne favoritt-verktøy.
