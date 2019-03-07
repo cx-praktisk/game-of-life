@@ -1,0 +1,25 @@
+@media all {html {font-size: 20px;}}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: pink;
+}
+
+p {
+  max-width: 40rem;
+}
+
+.canvas {
+  border: 0.1rem solid grey;
+  margin-bottom: 1rem;
+}
