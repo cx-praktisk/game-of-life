@@ -8,7 +8,7 @@ De fleste har nok fått med seg at nettleseren ikke lenger bare er for visning a
 
 Denne gangen har vi gjort klar litt JavaScript, HTML og CSS som man kan ta utgangspunkt i hvis man har lyst, men som alltid på Praktisk er det mulig å gjøre litt hva man vil uten å følge opplegget slavisk.
 
-Ta med deg laptopen og bli med! Du trenger ikke å forberede deg eller installere noe på forhånd for å delta.
+Ta med deg laptopen og bli med! Du trenger ikke å forberede deg, lese resten av denne guiden, eller installere noe på forhånd for å delta.
 
 ## Conway's Game of Life
 
