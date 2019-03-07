@@ -25,7 +25,7 @@ Man starter spillet ved å plassere ut noen levende celler i rutenettet. Så for
 
 ### Blink, et eksempel på Life
 
-![Blink](docs/blink.gif)
+![Blink](images/blink.gif)
 
 Blink er et klassisk eksempel på en oscillator, som er et mønster som repeterer seg selv etter et bestemt antall runder/generasjoner. Her starter vi med tre levende celler på en linje (C1, C2 og C3), enten horisontalt eller vertikalt.
 
@@ -51,7 +51,7 @@ C1 og C3 er døde, og er ikke lenger markert på brettet. C2 har overlevd og i t
 
 Blink er et av de enkleste eksemplene, men mønstrene og oppførslene som kan oppstå kan være ganske kompliserte. Man har til og med funnet ut at man kan lage Turing-komplette maskiner med mønstre i Life! Under er pentadecathlon, et eksempel på en mer omfattende oscillator.
 
-![Pentadecathlon](docs/pentadecathlon.gif)
+![Pentadecathlon](images/pentadecathlon.gif)
 
 ## Hvor starter jeg nå?
 
@@ -61,4 +61,4 @@ Vil du jobbe lokalt kloner du [repoet med utgangspunkt-koden](https://github.com
 
 Hvis du vil bruke Glitch er det lurt å begynne med å opprette en bruker hvis du ikke har fra før. Deretter kan du trykke på remix-knappen på [prosjektet med utgangspunkt-koden](https://glitch.com/~praktisk-game-of-life), og begynne å kode. Du kan se kode og resultat samtidig, eller du kan bruke show-knappen for å se resultatet i en egen fane. Under er et utsnitt av hvordan utvikling i Glitch ser ut.
 
-![Pentadecathlon](docs/blink-glitch.gif)
+![Pentadecathlon](images/blink-glitch.gif)
