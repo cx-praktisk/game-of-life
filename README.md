@@ -1,5 +1,7 @@
 # Praktisk Game of Life i nettleseren
 
+*After Hours hos Computas torsdag 28. mars.*
+
 Praktisk @ After Hours er et fast arrangement på After Hours hvor vi løser en liten praktisk programmeringsoppgave. Oppgaven kan løses alene eller i små grupper, alt etter hva man selv foretrekker. Etter vi har programmert tar vi en liten titt på hva vi har laget. Hva vi har gjort likt og hva vi har gjort forskjellig? Forhåpentligvis lærer vi alle noe lurt som vi kan ta med oss videre.
 
 ## Grafikk, nå også i nettleseren!
