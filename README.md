@@ -29,11 +29,21 @@ Man starter spillet ved å plassere ut noen levende celler i rutenettet. Så for
 
 Blink er et klassisk eksempel på en oscillator, som er et mønster som repeterer seg selv etter et bestemt antall runder/generasjoner. Her starter vi med tre levende celler på en linje (C1, C2 og C3), enten horisontalt eller vertikalt.
 
-**TODO**
+| _ | _  | _  | _  | _ |
+|:-:|:--:|:--:|:--:|:-:|
+| _ | _  | _  | _  | _ |
+| _ | C1 | C2 | C3 | _ |
+| _ | _  | _  | _  | _ |
+| _ | _  | _  | _  | _ |
 
 C1 og C3 har bare en levende nabo (C2), og kommer til å dø i neste runde/generasjon. C2 har akkurat to levende naboer (C1 og C3) og kommer til å overleve neste runde. I tillegg har de tomme rutene rett over og rett under C2 akkurat tre levende naboer, og kommer til å bli levende. Etter en runde har vi med andre ord et brett som ser slik ut:
 
-**TODO**
+| _ | _  | _  | _  | _ |
+|:-:|:--:|:--:|:--:|:-:|
+| _ | _  | C4 | _  | _ |
+| _ | _  | C2 | _  | _ |
+| _ | _  | C5 | _  | _ |
+| _ | _  | _  | _  | _ |
 
 C1 og C3 er døde, og er ikke lenger markert på brettet. C2 har overlevd og i tillegg har C4 og C5 flyttet inn på de rutene som hadde akkurat tre levende naboer i forrige runde. Det samme mønsteret gjentar seg neste runde, og vi kommer tilbake til det mønsteret vi startet med.
 
