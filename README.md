@@ -64,3 +64,46 @@ Vil du jobbe lokalt kloner du [repoet med utgangspunkt-koden](https://github.com
 Hvis du vil bruke Glitch er det lurt å begynne med å opprette en bruker hvis du ikke har fra før. Deretter kan du trykke på remix-knappen på [prosjektet med utgangspunkt-koden](https://glitch.com/~praktisk-game-of-life), og begynne å kode. Du kan se kode og resultat samtidig, eller du kan bruke show-knappen for å se resultatet i en egen fane. Under er et utsnitt av hvordan utvikling i Glitch ser ut.
 
 ![Pentadecathlon](images/blink-glitch.gif)
+
+## Bla bla bla, diverse og etc.
+
+Gode og dårlige tips, ting det går an å tenke på, ting det går an å la være å tenke på, og sånn..
+
+### Algoritmer og datastrukturer
+
+Å implementere Life er ikke en veldig stor oppgave, men den er stor nok til at det går an å gjøre ganske forskjellige designvalg. Det kan være interessant å tenke litt på noe av følgende: Er en tilstand en todimensjonal array, en liste med posisjonene til levende celler, eller noe helt annet? Hva er en celle? Har brettet gitte dimensjoner eller er det uendelig stort? Er et steg i tid en ren funksjon som gir deg en ny tilstand som returverdi, eller en prosedyre som modifiserer en “nå-tilstand?”
+
+Gjør gjerne valg som virker lure. Eller, hvis du kjenner Life fra før og har implementert det tidligere, så er det kanskje gøy å prøve noe mindre lurt denne gangen…
+
+### `map` og `filter` og `forEach` og litt sånt finnes
+
+Du får en og annen nyttig metode med i JavaScript. Hvis du ikke har lyst til å for-løkke det til, så fungerer ting som `[1, 2, 3].map(x => x + x)` ganske slik en kan forvente...
+
+### `function` eller `=>`
+
+Liker du
+
+    function foo(x) {
+      return x + x;
+    }
+
+eller
+
+    const foo = x => x + x;
+
+best? Velg selv :)
+
+### Noen steder er det drager
+
+Du kommer langt med de primitive typene, arrays og enkle JavaScript-"objekter" som brukes mer som rene datastrukturer, og litt funksjoner. Og det er kanskje en del av språket som ikke er full av overraskelser.
+
+Det vil si: Hvis bruk av `class` og `this` og den slags virker litt skummelt: Det burde ikke være nødvendig for å løse oppgaven, så kan godt la være :)
+
+### For primitive typer: Sammenlign gjerne med `===`
+
+`==` er litt sånn som legger hodet på skakke og myser litt og sier at ja, de to tingene ser ganske like ut. `===` er litt strengere og passer bedre i hvert fall for de av oss som tenker at `1` og `"1"` er ganske forskjellige ting.
+
+### For andre ting: Sammenlign gjerne på annet vis
+JavaScript synes kanskje ikke `[1, 2, 3]` er lik `[1, 2, 3]`, eller `{ x: 5, y: 9 }` er lik `{ x: 5, y: 9 }`, enten du bruker `==` eller `===`. Det vil si, for arrayer og andre objekter sjekker den om det er samme instans, ikke om to instanser "inneholder det samme" eller noe slikt. Lag egne sammenligningsfunksjoner ved behov.
+
+Og hvis du har lyst til f.eks. å putte litt ting i et [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) kan det være greit å holde seg til primitive typer, f.eks. ved å gjøre om objekter til egnede stringer før du putter de i settet. Eller noe.
