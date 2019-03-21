@@ -65,6 +65,14 @@ Hvis du vil bruke Glitch er det lurt å begynne med å opprette en bruker hvis d
 
 ![Pentadecathlon](images/blink-glitch.gif)
 
+### Kort om utgangspunkt-koden
+
+Bla bla bla.
+
+### Litt om utvikling i nettleseren
+
+`F12` etc etc.
+
 ## Bla bla bla, diverse og etc.
 
 Gode og dårlige tips, ting det går an å tenke på, ting det går an å la være å tenke på, og sånn..
