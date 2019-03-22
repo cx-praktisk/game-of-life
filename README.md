@@ -71,7 +71,24 @@ Bla bla bla.
 
 ### Litt om utvikling i nettleseren
 
-`F12` etc etc.
+Nettleseren din er antageligvis nesten et utviklingsmiljø med en ganske fin REPL og god støtte for å gjøre endringer live i en "kjørende" nettside. Det kan være et fint sted å prøve seg fram før man "fører inn" endringene sine i filen man jobber med.
+
+Ting er litt avhengige av nettleseren du bruker, men det er ganske sannsynlig at `F12` gir deg tilgang til bl.a. en JavaScrip-"Console."
+
+Utgangspunkt-koden vår har en liste, `colours`, med farger. Det tegnes en firkant for hver farge. Vi kan f.eks. legge til et par farger og se om det blir flere firkanter:
+
+    colours.push("#00FFFF");    
+    colours.push("#FFFF00");
+
+Eller vi kan gjøre enkle endringer i den "vanlige" HTMLen, som å endre litt på teksten som vises over HTML-canvaset. F.eks.:
+
+    const header = document.getElementsByTagName("header")[0];
+    header.getElementsByTagName("h1")[0].innerText = "Laff";
+    const p = document.createElement("p");
+    p.innerText = "Hei";
+    header.appendChild(p);
+
+Prøv deg gjerne fram litt. Nettleseren ganske er flink til å peke ut hvilke elementer i nettsiden du jobber med, og hjelper til med code completion og det ene og det andre :)
 
 ## Bla bla bla, diverse og etc.
 
