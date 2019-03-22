@@ -27,11 +27,11 @@ function random(minclusive, maxclusive) {
   return Math.floor(Math.random() * maxclusive) + minclusive;
 }
 
-const colors = ["#000000", "#FF0000", "#00FF00", "#0000FF"];
+const colours = ["#000000", "#FF0000", "#00FF00", "#0000FF"];
 
 function update() {
   clear();
-  colors.forEach(color => {
+  colours.forEach(color => {
     canvasContext.fillStyle = color;
     drawSquare(vec(random(0, gameSize.x), random(0, gameSize.y)));
   });
