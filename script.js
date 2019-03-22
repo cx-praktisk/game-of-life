@@ -1,7 +1,7 @@
 
 /*
  * vec lager et "vektor-objekt" med x- og y-verdier
- * vi bruker vektorer både til å si hvor noe skal være (x/y-posisjon)
+ * vi bruker vektorer både til å si hvor noe skal være (xy-koordinater)
  * og til å si hvor stort noe ska være (bredde/lengde)
  */
 
