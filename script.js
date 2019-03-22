@@ -2,7 +2,7 @@
 /*
  * vec lager et "vektor-objekt" med x- og y-verdier
  * vi bruker vektorer både til å si hvor noe skal være (xy-koordinater)
- * og til å si hvor stort noe ska være (bredde/lengde)
+ * og til å si hvor stort noe skal være (bredde/lengde)
  */
 
 function vec(x, y) {
