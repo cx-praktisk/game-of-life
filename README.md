@@ -67,7 +67,9 @@ Hvis du vil bruke Glitch er det lurt å begynne med å opprette en bruker hvis d
 
 ### Kort om utgangspunkt-koden
 
-Bla bla bla.
+Nei.
+
+Eller, se heller kommentarene i `script.js`-filen.
 
 ### Litt om utvikling i nettleseren
 
