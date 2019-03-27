@@ -122,7 +122,7 @@ best? Velg selv :)
 
 ### Enn om jeg vil trykke på noe?
 
-Det er flere `onmouse-et-eller-annet`-greier du kan gjøre ting med hvis du har lyst til å gjøre et-eller-annet med musepeking og sånt. Her er et lite eksempel som kan brukes for å komme i gang der vi skriver ut koordinatene til cellen du trykker på:
+Det er flere `onmouse-et-eller-annet`-greier du kan gjøre ting med hvis du har lyst til å gjøre noe med musepeking og sånt. Her er et lite eksempel som kan brukes for å komme i gang der vi skriver ut koordinatene til cellen du trykker på:
 
     canvas.onmousedown = evt => {
       const rect = canvas.getBoundingClientRect();
