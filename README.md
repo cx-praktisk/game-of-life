@@ -120,6 +120,19 @@ eller
 
 best? Velg selv :)
 
+### Enn om jeg vil trykke på noe?
+
+Det er flere `onmouse-et-eller-annet`-greier du kan gjøre ting med hvis du har lyst til å gjøre et-eller-annet med musepeking og sånt. Her er et lite eksempel som kan brukes for å komme i gang der vi skriver ut koordinatene til cellen du trykker på:
+
+    canvas.onmousedown = evt => {
+      const rect = canvas.getBoundingClientRect();
+      const x = ~~((evt.clientX - rect.left) / cellSize.x);
+      const y = ~~((evt.clientY - rect.top) / cellSize.y);
+      console.log(vec(x, y));
+    }
+
+Test det gjerne ut rett i JavaScript-konsollen.
+
 ### Noen steder er det drager
 
 Du kommer langt med de primitive typene, arrays og enkle JavaScript-"objekter" som brukes mer som rene datastrukturer, og litt funksjoner. Og det er kanskje en del av språket som ikke er full av overraskelser.
