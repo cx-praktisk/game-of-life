@@ -65,11 +65,9 @@ Hvis du vil bruke Glitch er det lurt å begynne med å opprette en bruker hvis d
 
 ![Pentadecathlon](images/blink-glitch.gif)
 
-### Kort om utgangspunkt-koden
+### Start i script.js
 
-Nei.
-
-Eller, se heller kommentarene i `script.js`-filen.
+Her er det skrevet en del kommentarer med forklaringer og tips. Et godt sted å starte kan være å få oversikt over `update()`-funksjonen. Etter det kan det være greit å tenke litt på hvordan man vil representere et rutenett med celler, og hvordan man skal oppdatere dette basert på reglene i Game of Life. Les gjerne seksjonen om algoritmer og datastrukturer under for å få noen tips til hvordan dette kan gjøres.
 
 ### Litt om utvikling i nettleseren
 
@@ -79,22 +77,24 @@ Ting er litt avhengige av nettleseren du bruker, men det er ganske sannsynlig at
 
 Utgangspunkt-koden vår har en liste, `colours`, med farger. Det tegnes en firkant for hver farge. Vi kan f.eks. legge til et par farger og se om det blir flere firkanter:
 
-    colours.push("#00FFFF");    
-    colours.push("#FFFF00");
+```javascript
+colours.push("#00FFFF");
+colours.push("#FFFF00");
+```
 
 Eller vi kan gjøre enkle endringer i den "vanlige" HTMLen, som å endre litt på teksten som vises over HTML-canvaset. F.eks.:
 
-    const header = document.getElementsByTagName("header")[0];
-    header.getElementsByTagName("h1")[0].innerText = "Laff";
-    const p = document.createElement("p");
-    p.innerText = "Hei";
-    header.appendChild(p);
+```javascript
+const header = document.getElementsByTagName("header")[0];
+header.getElementsByTagName("h1")[0].innerText = "Laff";
+
+const p = document.createElement("p");
+p.innerText = "Hei";
+
+header.appendChild(p);
+```
 
 Prøv deg gjerne fram litt. Nettleseren ganske er flink til å peke ut hvilke elementer i nettsiden du jobber med, og hjelper til med code completion og det ene og det andre :)
-
-## Bla bla bla, diverse og etc.
-
-Gode og dårlige tips, ting det går an å tenke på, ting det går an å la være å tenke på, og sånn..
 
 ### Algoritmer og datastrukturer
 
@@ -110,13 +110,17 @@ Du får en og annen nyttig metode med i JavaScript. Hvis du ikke har lyst til å
 
 Liker du
 
-    function foo(x) {
-      return x + x;
-    }
+```javascript
+function foo(x) {
+    return x + x;
+}
+```
 
 eller
 
-    const foo = x => x + x;
+```javascript
+const foo = x => x + x;
+```
 
 best? Velg selv :)
 
@@ -124,12 +128,14 @@ best? Velg selv :)
 
 Det er flere `onmouse-et-eller-annet`-greier du kan gjøre ting med hvis du har lyst til å gjøre noe med musepeking og sånt. Her er et lite eksempel som kan brukes for å komme i gang, der vi skriver ut koordinatene til cellen du trykker på:
 
-    canvas.onmousedown = evt => {
-      const rect = canvas.getBoundingClientRect();
-      const x = ~~((evt.clientX - rect.left) / cellSize.x);
-      const y = ~~((evt.clientY - rect.top) / cellSize.y);
-      console.log(vec(x, y));
-    }
+```javascript
+canvas.onmousedown = evt => {
+    const rect = canvas.getBoundingClientRect();
+    const x = ~~((evt.clientX - rect.left) / cellSize.x);
+    const y = ~~((evt.clientY - rect.top) / cellSize.y);
+    console.log(vec(x, y));
+}
+```
 
 Test det gjerne ut rett i JavaScript-konsollen.
 
