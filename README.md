@@ -59,7 +59,7 @@ Blink er et av de enkleste eksemplene, men mønstrene og oppførslene som kan op
 
 Vi har gjort klar et utgangspunkt for å programmere Game og Life i ren JavaScript, HTML og CSS. Du kan velge mellom å utvikle rett i nettleseren ved hjelp av [Glitch](https://glitch.com/), eller jobbe lokalt med dine egne favoritt-verktøy.
 
-Vil du jobbe lokalt kloner du [repoet med utgangspunkt-koden](https://github.com/cx-praktisk/game-of-life), åpner index.html i en passende nettleser, og redigerer script.js i en editor du liker.
+Vil du jobbe lokalt kloner du [repoet med utgangspunkt-koden](https://github.com/cx-praktisk/game-of-life), åpner `index.html` i en passende nettleser, og redigerer `script.js` i en editor du liker.
 
 Hvis du vil bruke Glitch er det lurt å begynne med å opprette en bruker hvis du ikke har fra før. Deretter kan du trykke på remix-knappen på [prosjektet med utgangspunkt-koden](https://glitch.com/~praktisk-game-of-life), og begynne å kode. Du kan se kode og resultat samtidig, eller du kan bruke show-knappen for å se resultatet i en egen fane. Under er et utsnitt av hvordan utvikling i Glitch ser ut.
 
