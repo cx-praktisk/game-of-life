@@ -8,7 +8,7 @@ Praktisk @ After Hours er et fast arrangement på After Hours hvor vi løser en 
 
 De fleste har nok fått med seg at nettleseren ikke lenger bare er for visning av dokumenter, men også har blitt en plattform for grafisk programmering. I denne runden av Praktisk @ After Hours skal vi se litt på klassikeren Conway's Game of Life, og hvordan man kan lage dette grafiske spillet i nettleseren ved hjelp av [Canvas APIet](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API).
 
-Denne gangen har vi gjort klar litt JavaScript, HTML og CSS som man kan ta utgangspunkt i hvis man har lyst, men som alltid på Praktisk er det mulig å gjøre litt hva man vil uten å følge opplegget slavisk.
+Vi gjort klar litt JavaScript, HTML og CSS som man kan ta utgangspunkt i hvis man har lyst, men som alltid på Praktisk er det mulig å gjøre litt hva man vil uten å følge opplegget slavisk.
 
 Ta med deg laptopen og bli med! Du trenger ikke å forberede deg, lese resten av denne guiden, eller installere noe på forhånd for å delta.
 
