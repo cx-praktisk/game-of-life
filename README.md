@@ -104,7 +104,7 @@ Gjør gjerne valg som virker lure. Eller, hvis du kjenner Life fra før og har i
 
 ### `map` og `filter` og `forEach` og litt sånt finnes
 
-Du får en og annen nyttig metode med i JavaScript. Hvis du ikke har lyst til å for-løkke det til, så fungerer ting som `[1, 2, 3].map(x => x + x)` ganske slik en kan forvente...
+Du får en og annen nyttig metode med i JavaScript. Hvis du ikke har lyst til å for-løkke alle tingene, så fungerer ting som `[1, 2, 3].map(x => x + x)` ganske slik en kan forvente...
 
 ### `function` eller `=>`
 
@@ -122,7 +122,7 @@ best? Velg selv :)
 
 ### Enn om jeg vil trykke på noe?
 
-Det er flere `onmouse-et-eller-annet`-greier du kan gjøre ting med hvis du har lyst til å gjøre noe med musepeking og sånt. Her er et lite eksempel som kan brukes for å komme i gang der vi skriver ut koordinatene til cellen du trykker på:
+Det er flere `onmouse-et-eller-annet`-greier du kan gjøre ting med hvis du har lyst til å gjøre noe med musepeking og sånt. Her er et lite eksempel som kan brukes for å komme i gang, der vi skriver ut koordinatene til cellen du trykker på:
 
     canvas.onmousedown = evt => {
       const rect = canvas.getBoundingClientRect();
