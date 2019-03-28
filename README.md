@@ -65,7 +65,7 @@ Hvis du vil bruke Glitch er det lurt å begynne med å opprette en bruker hvis d
 
 ![Pentadecathlon](images/blink-glitch.gif)
 
-### Start i script.js
+### Start i `script.js`
 
 Her er det skrevet en del kommentarer med forklaringer og tips. Et godt sted å starte kan være å få oversikt over `update()`-funksjonen. Etter det kan det være greit å tenke litt på hvordan man vil representere et rutenett med celler, og hvordan man skal oppdatere dette basert på reglene i Game of Life. Les gjerne seksjonen om algoritmer og datastrukturer under for å få noen tips til hvordan dette kan gjøres.
 
